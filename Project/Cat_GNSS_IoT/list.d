@@ -1,0 +1,12 @@
+.\cat_gnss_iot\list.o: ..\FreeRTOS\list.c
+.\cat_gnss_iot\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\cat_gnss_iot\list.o: ..\FreeRTOS\include\FreeRTOS.h
+.\cat_gnss_iot\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\cat_gnss_iot\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\cat_gnss_iot\list.o: .\Src\FreeRTOSConfig.h
+.\cat_gnss_iot\list.o: ..\FreeRTOS\include\projdefs.h
+.\cat_gnss_iot\list.o: ..\FreeRTOS\include\portable.h
+.\cat_gnss_iot\list.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\cat_gnss_iot\list.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\cat_gnss_iot\list.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\cat_gnss_iot\list.o: ..\FreeRTOS\include\list.h

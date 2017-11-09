@@ -1,0 +1,11 @@
+.\cat_gnss_iot\mqttunsubscribeserver.o: ..\Middlewares\mqtt\MQTTPacket\MQTTUnsubscribeServer.c
+.\cat_gnss_iot\mqttunsubscribeserver.o: ..\Middlewares\mqtt\MQTTPacket\MQTTPacket.h
+.\cat_gnss_iot\mqttunsubscribeserver.o: ..\Middlewares\mqtt\MQTTPacket\MQTTConnect.h
+.\cat_gnss_iot\mqttunsubscribeserver.o: ..\Middlewares\mqtt\MQTTPacket\MQTTPublish.h
+.\cat_gnss_iot\mqttunsubscribeserver.o: ..\Middlewares\mqtt\MQTTPacket\MQTTSubscribe.h
+.\cat_gnss_iot\mqttunsubscribeserver.o: ..\Middlewares\mqtt\MQTTPacket\MQTTUnsubscribe.h
+.\cat_gnss_iot\mqttunsubscribeserver.o: ..\Middlewares\mqtt\MQTTPacket\MQTTFormat.h
+.\cat_gnss_iot\mqttunsubscribeserver.o: ..\Middlewares\mqtt\MQTTPacket\StackTrace.h
+.\cat_gnss_iot\mqttunsubscribeserver.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\cat_gnss_iot\mqttunsubscribeserver.o: ..\Middlewares\mqtt\MQTTPacket\MQTTPacket.h
+.\cat_gnss_iot\mqttunsubscribeserver.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

@@ -1,0 +1,104 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: fdsa Microsoft, Microsoft, LIC=8MZLQ-NNPMX-175RR-K52AR-IDFAH-MVK86
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\ripple\keiluVision_workspace\Cat_GNSS_IoT\Project\Project.uvprojx
+Project File Date:  10/18/2017
+
+<h2>Output:</h2>
+Build target 'Cat_GNSS_IoT'
+compiling cloud.c...
+..\Gizwits\src\cloud.c(92): warning:  #177-D: variable "totalLen" was declared but never referenced
+        int                             i, http_fd, len, ContentLen, totalLen, write_len, read_len, chunked;
+..\Gizwits\src\cloud.c(92): warning:  #177-D: variable "read_len" was declared but never referenced
+        int                             i, http_fd, len, ContentLen, totalLen, write_len, read_len, chunked;
+..\Gizwits\src\cloud.c(194): warning:  #550-D: variable "write_len" was set but never used
+        int     http_fd, write_len;
+..\Gizwits\src\cloud.c(244): warning:  #550-D: variable "write_len" was set but never used
+        int     http_fd, write_len;
+..\Gizwits\src\cloud.c(388): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+          index_body = strstr(decryptData, "host=");
+..\Gizwits\src\cloud.c(398): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+          index_body = strstr(decryptData, "port=");
+..\Gizwits\src\cloud.c(298): warning:  #177-D: variable "ContentLen" was declared but never referenced
+        int                             i, http_fd, len, ContentLen, totalLen, write_len, read_len;
+..\Gizwits\src\cloud.c(298): warning:  #177-D: variable "totalLen" was declared but never referenced
+        int                             i, http_fd, len, ContentLen, totalLen, write_len, read_len;
+..\Gizwits\src\cloud.c(298): warning:  #550-D: variable "write_len" was set but never used
+        int                             i, http_fd, len, ContentLen, totalLen, write_len, read_len;
+..\Gizwits\src\cloud.c(298): warning:  #177-D: variable "read_len" was declared but never referenced
+        int                             i, http_fd, len, ContentLen, totalLen, write_len, read_len;
+..\Gizwits\src\cloud.c(579): warning:  #177-D: variable "write_len" was declared but never referenced
+          int             read_len, write_len, error_num, one_packet_len;
+..\Gizwits\src\cloud.c(579): warning:  #177-D: variable "error_num" was declared but never referenced
+          int             read_len, write_len, error_num, one_packet_len;
+..\Gizwits\src\cloud.c(659): warning:  #177-D: variable "ip" was declared but never referenced
+        char            recv_buf[BUF_LEN], sub_string[128], ip[LOG_IP_BUF_LENGTH];
+..\Gizwits\src\cloud.c(896): warning:  #177-D: variable "ip" was declared but never referenced
+      char        recv_buf[2048], sub_string[128], ip[LOG_IP_BUF_LENGTH];
+..\Gizwits\src\cloud.c(1109): warning:  #177-D: variable "send_buf" was declared but never referenced
+        char    topic[128], send_buf[1024], debug_info[1024], length_bytes[4];
+..\Gizwits\src\cloud.c(1200): warning:  #1293-D: assignment in condition
+        if((index1 = strstr(cloud->recv_buf, "soft_ver="))){
+..\Gizwits\src\cloud.c(1210): warning:  #1293-D: assignment in condition
+        else if((index1 = strstr(cloud->recv_buf, "Don't have a push rule id on device"))){
+..\Gizwits\src\cloud.c(1215): warning:  #1293-D: assignment in condition
+        else if((index1 = strstr(cloud->recv_buf, "push rule not in effect or device already upgrade"))){
+..\Gizwits\src\cloud.c(1167): warning:  #550-D: variable "write_len" was set but never used
+        int     http_fd, write_len;
+..\Gizwits\src\cloud.c(1168): warning:  #177-D: variable "port" was declared but never referenced
+        char    *index1, *index2, port[16], content[128];
+..\Gizwits\src\cloud.c(1240): warning:  #186-D: pointless comparison of unsigned integer with zero
+                if(len < 0 || len >32) return -1;
+..\Gizwits\src\cloud.c(1226): warning:  #177-D: variable "action" was declared but never referenced
+          char                    did[32], ota_type, *index, action, *kv;
+..\Gizwits\src\cloud.c(1226): warning:  #177-D: variable "kv" was declared but never referenced
+          char                    did[32], ota_type, *index, action, *kv;
+..\Gizwits\src\cloud.c(1227): warning:  #177-D: variable "kv_len" was declared but never referenced
+          uint16_t                len, kv_len;
+..\Gizwits\src\cloud.c(1228): warning:  #177-D: variable "length_len" was declared but never referenced
+          uint8_t                 length_len;
+..\Gizwits\src\cloud.c: 25 warnings, 0 errors
+linking...
+Program Size: Code=40692 RO-data=2348 RW-data=328 ZI-data=88528  
+".\Cat_GNSS_IoT\Cat_GNSS_IoT.axf" - 0 Error(s), 25 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\ripple\keiluVision_workspace\Cat_GNSS_IoT\Project\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>

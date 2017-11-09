@@ -1,0 +1,13 @@
+.\cat_gnss_iot\aesdata.o: ..\Gizwits\src\aesdata.c
+.\cat_gnss_iot\aesdata.o: ..\Gizwits\inc\aes.h
+.\cat_gnss_iot\aesdata.o: ..\Gizwits\inc\tool.h
+.\cat_gnss_iot\aesdata.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\cat_gnss_iot\aesdata.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\cat_gnss_iot\aesdata.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\cat_gnss_iot\aesdata.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\cat_gnss_iot\aesdata.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\cat_gnss_iot\aesdata.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\cat_gnss_iot\aesdata.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\errno.h
+.\cat_gnss_iot\aesdata.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\cat_gnss_iot\aesdata.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\cat_gnss_iot\aesdata.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h

@@ -1,0 +1,13 @@
+.\cat_gnss_iot\heap_2.o: ..\FreeRTOS\portable\MemMang\heap_2.c
+.\cat_gnss_iot\heap_2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\cat_gnss_iot\heap_2.o: ..\FreeRTOS\include\FreeRTOS.h
+.\cat_gnss_iot\heap_2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\cat_gnss_iot\heap_2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\cat_gnss_iot\heap_2.o: .\Src\FreeRTOSConfig.h
+.\cat_gnss_iot\heap_2.o: ..\FreeRTOS\include\projdefs.h
+.\cat_gnss_iot\heap_2.o: ..\FreeRTOS\include\portable.h
+.\cat_gnss_iot\heap_2.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\cat_gnss_iot\heap_2.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\cat_gnss_iot\heap_2.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\cat_gnss_iot\heap_2.o: ..\FreeRTOS\include\task.h
+.\cat_gnss_iot\heap_2.o: ..\FreeRTOS\include\list.h

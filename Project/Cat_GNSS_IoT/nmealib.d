@@ -1,0 +1,10 @@
+.\cat_gnss_iot\nmealib.o: Src\nmealib.c
+.\cat_gnss_iot\nmealib.o: Src\nmealib.h
+.\cat_gnss_iot\nmealib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\cat_gnss_iot\nmealib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\cat_gnss_iot\nmealib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\cat_gnss_iot\nmealib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\cat_gnss_iot\nmealib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\cat_gnss_iot\nmealib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\cat_gnss_iot\nmealib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\cat_gnss_iot\nmealib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

@@ -1,0 +1,3 @@
+---- is aviable, will connect Matches (2 in 1 files) ----
+Cloud.c (d:\ripple\keiluvision_workspace\cat_gnss_iot\gizwits\src):		TRACE_DEBUG( "cloud->mqtt_server is aviable, will connect %s", cloud->mqtt_server);
+Cloud.c (d:\ripple\keiluvision_workspace\cat_gnss_iot\gizwits\src):        TRACE_DEBUG( "cloud->mqtt_server is aviable, will connect %s", cloud->mqtt_server);
